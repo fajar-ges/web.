@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(bahan/abundant-collection-antique-books-wooden-shelves-generated-by-ai.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0%;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100px;
+    padding: 0px 10px 650px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+.wapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    line-height: 70px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgb(115, 85, 25);
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;}
+
+a.tbl-biru {
+    background: rgb(196, 141, 65);
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: rgb(234, 202, 100);
+    text-decoration: none;
+}
+
+.header-contentss {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(20%,15%);
+    text-align: center;
+    margin-top: 1%;
+    width: 920px;
+}
+
+.header-contentss h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 600;
+    font-family: 'comic sans ms'
+}
+
+.header-contentss h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.email-signup {
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.email-signup input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+
+.email-signup button {
+    background: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+
+.profil {
+    float: right;
+    margin-top: 200px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px,0px,10px,0px;
+    padding: 10px,0px,10px,0px;
+}
+
+.tengah {
+    width: 100%;
+    text-align: center;
+    background-color:  rgb(118, 58, 28);
+    padding: 10px 0px 100px 0px;
+    background-size: cover;
+    position: relative;
+}
+
+.tengah .kolom .deskripsi {
+    font-family: 'comic sans ms';
+    font-size: 50px;
+}
+
+.galery-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-galery {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-galery img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-galery p {
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and {max-width: 1000px;} {
+    .header, .wrapper, .wapper, .header-contents, .email-signup {width: 100%;
+    }
+}
